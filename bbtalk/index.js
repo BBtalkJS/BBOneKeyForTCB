@@ -17,7 +17,7 @@ exports.main = async (event, context) => {
     let apikey = event.queryStringParameters.key
     let content = ''
     if(serverkey == apikey ){
-        const talksCollection = db.collection('talks')
+        const talksCollection = db.collection('bbtalks')
         //提取消息内容，发送者，接受者，时间戳，消息类型，内容
         var CreateTime = Date.now(),
             Content = event.queryStringParameters.text,
