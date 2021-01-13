@@ -1,10 +1,10 @@
 {
-    "name": "bber-func",
+    "name": "bbtalk-func",
     "version": "1.0.0",
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/lmm214/bber.git"
+        "url": "https://github.com/BBtalkJS/BBOneKeyForTCB.git"
     },
     "dependencies": {
         "@cloudbase/node-sdk": "^2.4.4"
